@@ -6,7 +6,7 @@ from pydantic import BaseModel
 from typing import Optional
 from random import randrange
 
-app = FastAPI()
+app = FastAPI()# ll
 
 @app.get('/')
 async def root():
